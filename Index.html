@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+        <title>Emily Suggs</title>
+        
+        <style> 
+        #port{
+            text-align:center;
+            background-color:aqua;
+            margin:auto;
+            color:blue;
+        }
+        
+        a{
+            text-decoration:none;
+            color:black;
+        }
+        a:hover{
+            color:red;
+        }
+        
+        #header{
+            background-color:#4caf50;
+        }
+        table{
+            width:100%;
+            height:100%;
+        }
+        
+        #home{
+            text-align:center;
+            background-color:black;
+            color:white;
+            padding:9%;
+        }
+        .greeting{
+            animation-name: example;
+            animation-duration:6s;
+        }
+        @keyframes example{
+            0%{color:red;}
+            25%{color:yellow;}
+            50%{color:blue;}
+            100%{color:green;}
+            
+            
+        }
+        #about{
+            width:100%;
+            margin:auto;
+            background-color:lightblue;
+            color:red;
+            padding:20px;
+            box-sizing:border-box;
+        }
+       #about h1{
+           color:green;
+           text-align:center;
+       }
+       #about img{
+           width:100px;
+           height:auto;
+           display:block;
+           margin:auto;
+       }
+       
+       #about p{
+           font-size:18px;
+           margin-bottom:15px;
+          
+       }
+       
+       #about hr{
+           border:none;
+           border-top:3px solid red;
+           width:40%;
+           margin:auto;
+           color:red;
+       }
+       
+        #skills{
+            background-color:#4caf6d;
+            color:blue;
+            margin:auto;
+        
+        }
+        #skills-text {
+            font-size:2em;
+            margin:auto;
+            text-align:center;
+            background-color:#4caf6d;
+        }
+            
+        #skills ul{
+            
+        list-style-type:none;
+        padding:10px;
+        margin:auto;
+        }
+        
+        #skills li{
+            font-family:verdana;
+        }
+        
+        #skills-line{
+            border:none;
+            border-top:3px solid red;
+            margin:auto;
+        }
+        #projects{
+            background-color:#4caf6d;
+            color:blue;
+            margin:auto;
+        }
+        #projects-text{
+            font-size:2em;
+            margin:auto;
+        }
+        #projects ul{
+            list-style-type:none;
+            padding:10px;
+            margin:auto;
+        }
+        #projects-li{
+            font-family: 'Verdana';
+            font-size:18px;
+            margin-bottom:10px;
+        }
+        #projects-line{
+            border-top:3px solid red;
+            margin:auto;
+        }
+        /* end of the projects css section */
+        /* start contact section */
+        
+        #contact{
+            background-color:lightgray;
+            width:100%;
+            border-collapse:collapse;
+            text-align:center;
+        }
+        #contact h1{
+            margin:0;
+            color:#2c3e50;
+        }
+        #contact hr{
+            border-top:2px   solid red;
+            margin:10px;
+            
+        }
+        #contact td{
+            padding:10px;
+        }
+        label{
+            font-weight:bold;
+        }
+        input, textarea{
+            width:100%;
+            padding:5px;
+            border:2px solid blue;
+            border-radius:5px;
+        }
+        button{
+            background-color:#2980b9;
+            color:;
+            padding:10px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+            transition:background-color 0.3s;
+        }
+        button:hover{
+            background-color:green;
+        }
+        body{
+            background-color:lightgray;
+        }
+        
+        /* end of the contact section */
+        /* start social media css section*/
+        .fa:hover{
+            opacity:0.9;
+            
+        }
+        
+        .fa-facebook{
+            background-color:#007bb5;
+            color:white;
+        }
+        .fa-instagram{
+            background-color:#d62976;
+            color:white;
+            
+        }
+        .fa-youtube-play{
+            background-color:#d6c6c6;
+            color:#f50909;
+        }
+        .fa {
+            padding:15px;
+            font-size:40px;
+            width:60px;
+            margin:5px;
+        }
+       
+        </style>
+        
+        
+    </head>
+
+    <body>
+        <h1 id="port"> Porfolio </h1>
+        <table id="header"    border="0">
+            <tr>
+          <td><h3> Emily Suggs</h3></td>  
+          
+          <td> <a href="#home">Home</a></td>
+          <td> |</td>
+           <td> <a href="#About">About</a></td>
+            <td> |</td>
+           <td> <a href="#Skills">Skills</a></td>
+            <td> |</td>
+            <td> <a href="#Projects">Projects</a></td>
+             <td> |</td>
+              <td> <a href="#Contact">Contact</a></td>
+              </tr>
+          
+            
+        </table>
+        <header id="home">
+            <h3 class="greeting ">Welcome to my Website</h3>
+        </header>
+        <table id="about">
+            <tr>
+            <td>
+            <h1>About me</h1>
+            <hr><!-- hr stands for horizontal rule-->
+            <br> <!--  stands for line break -->     
+             <img src="https://codehs.com/uploads/94b4730473a219e8784dac595ecfa595"  alt="profile picture" width="500px"    
+              <p>
+                       *I am a computer science student
+              </p>
+              <p>
+              *I have experience using html
+              </p>
+              <p>Cheers,</p>
+              <em> <strong> Emily </strong></em>
+            </td>   
+             </tr>
+             </table>
+             
+             <h1 id="skills-text"> Skills </h1>
+             <hr id="skills-line">
+             <ul  id="skills">
+                 <li>
+                     Web Development:
+                     <a href="https://www.w3schools.com/"> <img src="https://codehs.com/uploads/59ba9a6db46b94cdc1ff51c4ad02fa5c"width=20px > </a>
+                     <br>
+                     HTML:
+                     <a href="https://www.w3schools.com/"> <img src="https://codehs.com/uploads/59ba9a6db46b94cdc1ff51c4ad02fa5c"width=20px > </a>
+                     <br>
+                     CSS:
+                     <a href="https://www.w3schools.com/"> <img src="https://codehs.com/uploads/59ba9a6db46b94cdc1ff51c4ad02fa5c"width=20px > </a>
+                     <br>
+                     Javascrip:
+                     <a href="https://www.w3schools.com/"> <img src="https://codehs.com/uploads/59ba9a6db46b94cdc1ff51c4ad02fa5c"width=20px > </a>
+                     <br>
+                 </li>
+             </ul>
+             
+            <h1 id="projects"> Projects</h1>
+                
+            <hr id="projects-line">
+            <ul id="projects">
+                <li>Weather
+                <p> I worked on the weather app using HTML </p>
+                </li>
+                <li> 
+                Personal Portfolio
+                <p>I built my own personal portfolio using HTML and CSS</p>
+                </li>
+                </ul>
+                
+                
+                
+                
+                <table id="contact">
+                   <tr>
+                     <td colspan="2">
+                         <h1> Contact </h1>
+                         <hr>
+                         
+                     </td>
+                       
+                       
+                       
+                       
+                   </tr> 
+                   
+                   <tr>     
+                   <td width"30%">
+                      <label for="name"> Name </label> 
+                       
+                       
+                   </td>
+                   <td width="70%">
+                       <input type="text"  id"name" name="name">
+                   </td>
+                   
+                   </tr>
+                   
+                   <tr>     
+                   <td width"30%">
+                      <label for="email"> Email </label> 
+                       
+                       
+                   </td>
+                   <td width="70%">
+                       <input type="text"  id"email" email="email">
+                   </td>
+                   
+                   </tr>
+                   
+                   <tr>     
+                   <td width"30%">
+                      <label for="number"> Number </label> 
+                       
+                       
+                   </td>
+                   <td width="70%">
+                       <input type="text"  id"number" number="number">
+                   </td>
+                   
+                   </tr>
+                   <tr>
+                       <td width="30%">
+                           <label for="message">Message</label>
+                            </td>
+                            <td width="70%">
+                                <textarea id="message"name="message"rows="5"></textarea>
+                            </td>
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                   
+                        <td width="30%">
+                       
+                        <td width="70%">
+                            <button type="submit"> <em><strong> Submit </strong></em></button>
+                            
+                        </td>
+                        </td>
+                        
+
+                    </tr>
+                    
+                    
+                    
+                    
+                </table>
+                
+                <center>
+                    <h1> </h1>
+                    <h3 id="media"> Social Media </h3>
+                        
+                    <a href="#" class="fa fa-facebook"></a>
+                     <a href="#" class="fa fa-instagram"></a>
+                      <a href="#" class="fa fa-youtube-play"></a>
+                      <h6> @Copyright 2026 by Ms. Suggs All rights reverred</h6>
+                      
+                </center>
+             
+             
+             
+             
+    </body>
+</html>
